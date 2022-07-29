@@ -14,10 +14,8 @@ public class InsertionSort<T extends Comparable<? super T>> {
 
 	protected void sortByAscendingOrder(T[] inputArray) {
 
-		// start at the first index and iterate through to the end
 		for (int i = 1; i < inputArray.length; i++) {
 			int currentIndex = i;
-
 			/*
 			 * Check: 
 			 * 1. that currentIndex is at least 1 
@@ -40,10 +38,8 @@ public class InsertionSort<T extends Comparable<? super T>> {
 
 	protected void sortByDescendingOrder(T[] inputArray) {
 
-		// start at the first index and iterate through to the end
 		for (int i = 1; i < inputArray.length; i++) {
 			int currentIndex = i;
-
 			/*
 			 * Check: 
 			 * 1. that currentIndex is at least 1 
